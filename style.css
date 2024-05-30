@@ -1,5 +1,5 @@
 body{
-  background-color: lightgreen; 
+  background-color: #5D3FD3; 
   text-align: center; 
 }
 
@@ -24,11 +24,11 @@ li a {
 }
 
 li a:hover {
-  background-color: green;
+  background-color: #E6E6FA; 
 }
 
 .active {
-  background-color: darkviolet;
+  background-color: #CF9FFF;
 }
 
 .container {
