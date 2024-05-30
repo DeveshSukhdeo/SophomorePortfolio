@@ -46,6 +46,8 @@ li a:hover {
 
 img{
   filter: grayscale(50%); 
-  margin-top:10px;
-  height: 1em;
+  margin-top: 50px;
+  margin-bottom: 100px; 
+  width: 100%;
+  
 }
