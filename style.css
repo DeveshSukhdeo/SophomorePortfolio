@@ -47,5 +47,5 @@ li a:hover {
 img{
   filter: grayscale(50%); 
   margin-top:10px;
-  height: auto;
+  height: 1em;
 }
