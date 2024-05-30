@@ -5,7 +5,6 @@ body{
 
 ul{
   list-style-type: none;
-  margin-top: 10px;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -18,7 +17,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
