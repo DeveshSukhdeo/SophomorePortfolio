@@ -30,3 +30,15 @@ li a:hover {
 .active {
   background-color: darkviolet;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.homeHead {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
