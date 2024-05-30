@@ -5,7 +5,7 @@ body{
 
 ul{
   list-style-type: none;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   overflow: hidden;
   background-color: #5D3FD3;
