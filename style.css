@@ -46,4 +46,5 @@ li a:hover {
 
 img{
   filter: grayscale(50%); 
+  height: 90%;
 }
