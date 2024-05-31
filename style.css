@@ -35,6 +35,7 @@ li a:hover {
   background-color: lavender;
 }
 
+/*
 .container {
   position: relative;
   text-align: center;
@@ -47,6 +48,7 @@ li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+*/
 
 img{
   filter: grayscale(70%); 
