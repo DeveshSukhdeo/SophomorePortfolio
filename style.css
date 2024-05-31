@@ -36,10 +36,22 @@ li a:hover {
   background-color: lavender;
 }
 
-.heading{
-  background-color: blue;
-  text-align: center; 
-  height: 100px; 
-  padding: 0;
-  margin: 0; 
+header{
+  overflow: hidden; 
+}
+#top-header{
+  text-align: center;
+  height: 60%;
+}
+#logo{
+  float: left;
+  padding: none;
+  margin: none; 
+  height: 60px;
+  width: 30%;
+}
+#logo img{
+  width: 60px; 
+  float: left;
+  padding: 10px 0px; 
 }
