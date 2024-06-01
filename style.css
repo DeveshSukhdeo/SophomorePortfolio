@@ -8,6 +8,11 @@ body{
   background-color: lavender; 
 }
 
+ol{
+  margin-top: 0; 
+  padding: 0; 
+}
+
 header{
   overflow: hidden; 
 }
@@ -49,13 +54,16 @@ header{
 }
 
 #menu li a {
-  color: black;
+  display: inline-block; 
+  padding: 0em 1.5em;
   text-decoration: none;
+  font-weight: bold; 
   line-height: 60px;
   text-transform: uppercase; 
+  color: black;
 }
 
-#menu li:hover a{
+#menu li:hover{
   background: blue;
   color: white;
 }
