@@ -55,3 +55,23 @@ header{
   float: left;
   padding: 10px 0px; 
 }
+
+#menu{
+  float: right;
+  width: 70%
+  height: 100%; 
+  margin: none;
+}
+
+#menu ul{
+  text-align: center;
+  float: right;
+  margin: none;
+  background-color: orange;
+}
+
+#menu li{
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
