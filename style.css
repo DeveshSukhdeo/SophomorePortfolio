@@ -67,3 +67,16 @@ header{
   background: blue;
   color: white;
 }
+
+#header-image{
+  top: 10px;
+  position: relative;
+}
+
+#header-image img{
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+
+image-text
