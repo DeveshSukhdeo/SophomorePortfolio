@@ -44,7 +44,7 @@ header{
   text-align: center;
   float: right;
   margin: none;
-  background-color: orange;
+  background-color: lavender;
 }
 
 #menu li{
@@ -64,8 +64,17 @@ header{
 }
 
 #menu li:hover{
-  background: blue;
+  background: darkviolet;
   color: white;
+  border-left: 2px solid black;
+  border-right: 2px solid black; 
+}
+
+.active{
+  background-color: darkviolet;
+  color: white; 
+  border-left: 2px solid black;
+  border-right: 2px solid black; 
 }
 
 #header-image{
