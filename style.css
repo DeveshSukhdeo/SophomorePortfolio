@@ -24,11 +24,11 @@ header{
   float: left;
   padding: none;
   margin: none; 
-  height: 60px;
+  height: 70px;
   width: 30%;
 }
 #logo img{
-  width: 60px; 
+  width: 70px; 
   float: left;
   padding: 10px 0px; 
 }
@@ -75,6 +75,7 @@ header{
 
 #header-image img{
   width: 100%;
+  height: auto; 
   margin: none;
   padding: none;
 }
