@@ -82,9 +82,10 @@ header{
 
 #header-image img{
   width: 100%;
-  height: auto; 
+  height: 600px; 
   margin: none;
   padding: none;
+  filter: grayscale(40%);
 }
 
 #image-text{
@@ -94,5 +95,29 @@ header{
   transform: translate(-50%, -50%);
   font-family: 'Ariel';
   color: white;
+  text-align: center;
+  font-size: 50px; 
+}
+
+.pageH1{
   text-align: center; 
+}
+
+.lab-container{
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.lab-box{
+  background-color: lightgrey; 
+  border: 3px solid black;
+  margin: 5px;
+  padding: 5px; 
+  height: 100px;
+  width: 300px; 
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
 }
