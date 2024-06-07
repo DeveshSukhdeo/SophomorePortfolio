@@ -6,6 +6,7 @@ body{
   height: 100%; 
   text-align: center; 
   background-color: lavender; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ol{
@@ -85,15 +86,15 @@ header{
   height: 600px; 
   margin: none;
   padding: none;
-  filter: grayscale(40%);
+  filter: grayscale(60%);
 }
 
 #image-text{
   position: absolute;
-  top: 50%;
+  top: 35%; 
   left: 50%; 
   transform: translate(-50%, -50%);
-  font-family: 'Ariel';
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   text-align: center;
   font-size: 50px; 
@@ -111,7 +112,7 @@ header{
 }
 
 .lab-box{
-  background-color: lightgrey; 
+  background-color: lavenderblush; 
   border: 3px solid black;
   margin: 5px;
   padding: 20px 0; 
@@ -119,6 +120,7 @@ header{
   width: 800px; 
   font-size: 20px;
   text-align: center;
+  color: black; 
 }
 
 a {
@@ -135,13 +137,20 @@ a {
   border: 3px solid black;
   height: 500px;
   width: 40%;
-  background-color: lightgray;
+  background-color: lavenderblush;
   margin-left: 25px; 
+  overflow: hidden;
 }
 .abtMeRight{
   border: 3px solid black; 
   height: 500px;
   width: 60%;
-  background-color: lightgray;
+  background-color: lavenderblush;
   margin-right: 25px; 
+  overflow: hidden; 
+}
+
+p{
+  padding: 20px; 
+  font-size: 20px; 
 }
