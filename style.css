@@ -5,7 +5,7 @@ html{
 body{
   height: 100%; 
   text-align: center; 
-  background-color: lavender; 
+  background-color: #c69deb; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -45,7 +45,7 @@ header{
   text-align: center;
   float: right;
   margin: none;
-  background-color: lavender;
+  background-color: #c69deb;
 }
 
 #menu li{
@@ -61,7 +61,7 @@ header{
   font-weight: bold; 
   line-height: 60px;
   text-transform: uppercase; 
-  color: black;
+  color: black; 
 }
 
 #menu li:hover{ 
@@ -70,9 +70,13 @@ header{
   border-left: 2px solid black;
   border-right: 2px solid black; 
 }
+#menu li a:hover{
+  color:white; 
+}
 
 .active{
-  background-color: violet;
+  /* background-color: #eaccf6; */
+  background-color: #dfb3f2;
   color: black;
 } 
 
@@ -86,7 +90,7 @@ header{
   height: 600px; 
   margin: none;
   padding: none;
-  filter: grayscale(60%);
+  filter: grayscale(35%);
 }
 
 #image-text{
@@ -102,22 +106,23 @@ header{
 
 .pageH1{
   text-align: center; 
+  color: white; 
 }
 
 .lab-container{
   margin: auto; 
-  width: 55%; 
+  width: 812px; 
   height: 500px;
   overflow: auto; 
 }
 
 .lab-box{
-  background-color: lavenderblush; 
+  background-color: lavender; 
   border: 3px solid black;
   margin: 5px;
   padding: 20px 0; 
   height: 30px;
-  width: 800px; 
+  width: 780px; 
   font-size: 20px;
   text-align: center;
   color: black; 
@@ -137,7 +142,7 @@ a {
   border: 3px solid black;
   height: 500px;
   width: 40%;
-  background-color: lavenderblush;
+  background-color: lavender;
   margin-left: 25px; 
   overflow: hidden;
 }
@@ -145,7 +150,7 @@ a {
   border: 3px solid black; 
   height: 500px;
   width: 60%;
-  background-color: lavenderblush;
+  background-color: lavender;
   margin-right: 25px; 
   overflow: hidden; 
 }
@@ -154,3 +159,10 @@ p{
   padding: 20px; 
   font-size: 20px; 
 }
+
+.sub-pg-bg{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
