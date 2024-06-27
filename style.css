@@ -166,5 +166,9 @@ p{
   background-repeat: no-repeat;
 } 
 
+hr{
+  border: 2px solid white;
+}
+
 /* Adding more stuff so stuff works*/
 
